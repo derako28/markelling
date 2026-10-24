@@ -1,0 +1,60 @@
+{
+  "enableAllProjectMcpServers": true,
+  "permissions": {
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "Edit(drafts/**)",
+      "Edit(analytics/**)",
+      "Edit(edits.md)",
+      "Edit(experiments.md)",
+      "Edit(playbook.md)",
+      "WebSearch",
+      "WebFetch",
+      "mcp__tf-db",
+      "mcp__tf-api__list_workspaces",
+      "mcp__tf-api__search_posts",
+      "mcp__tf-api__rising_posts",
+      "mcp__tf-api__pushed_topics",
+      "mcp__tf-api__get_post",
+      "mcp__tf-api__similar_posts",
+      "mcp__tf-api__list_signals",
+      "mcp__tf-api__list_videos",
+      "mcp__tf-api__get_video",
+      "mcp__tf-api__what_works",
+      "mcp__tf-api__posting_times",
+      "mcp__tf-api__own_stats",
+      "mcp__tf-api__own_posts",
+      "mcp__tf-api__own_published",
+      "mcp__tf-api__latest_report",
+      "Bash(node scripts/now.mjs:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git switch:*)",
+      "Bash(git checkout:*)",
+      "Bash(git branch:*)",
+      "Bash(git remote:*)",
+      "Bash(git push -u origin coach/:*)",
+      "Bash(gh pr create:*)"
+    ],
+    "ask": [
+      "mcp__tf-api__record_profile_analytics",
+      "mcp__tf-api__record_post_metrics",
+      "Edit(brief.md)"
+    ],
+    "deny": [
+      "Read(../x-lorenzofl0w/**)",
+      "Bash(git merge:*)",
+      "Bash(git rebase:*)",
+      "Bash(git reset --hard:*)",
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)",
+      "Bash(gh pr merge:*)",
+      "Bash(gh repo delete:*)"
+    ]
+  }
+}

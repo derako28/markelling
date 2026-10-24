@@ -1,0 +1,14 @@
+# Секреты и локальные настройки
+.env
+.env.*
+.claude/settings.local.json
+
+# Мусор
+node_modules/
+*.log
+tmp/
+.DS_Store
+Thumbs.db
+
+# Скриншоты X Analytics — цифры переносим в analytics/, картинки в git не кладём
+screenshots/
