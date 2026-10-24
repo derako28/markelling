@@ -11,4 +11,4 @@ tmp/
 Thumbs.db
 
 # Скриншоты X Analytics — цифры переносим в analytics/, картинки в git не кладём
-screenshots/
+/screenshots/
