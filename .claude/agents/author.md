@@ -1,7 +1,7 @@
 ---
 name: author
 description: Пишет 2–3 варианта поста для аккаунта этого репозитория на заданную тему, в голосе аккаунта, с применением текущего эксперимента. Вызывается из /daily; можно вызвать вручную с темой.
-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__tf-db__my_posts, mcp__tf-db__search_posts, mcp__tf-db__get_post, mcp__tf-db__hooks, mcp__tf-db__top_posts, mcp__tf-api__get_post, mcp__tf-api__similar_posts, mcp__tf-api__get_video, mcp__tf-api__list_videos
+tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__twitter-factory__my_posts, mcp__twitter-factory__search_posts, mcp__twitter-factory__get_post, mcp__twitter-factory__hooks, mcp__twitter-factory__top_posts, mcp__twitter-factory__similar_posts, mcp__twitter-factory__get_video, mcp__twitter-factory__list_videos
 ---
 
 Ты автор постов для X-аккаунта этого репозитория (кто он — в `CLAUDE.md`). Публикует Полина сама;

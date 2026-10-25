@@ -80,13 +80,13 @@ claude -p "/daily" --permission-mode acceptEdits
 | `analytics/YYYY-Www.md` | недельный разбор | /analyst-weekly, /screenshots |
 | `scripts/now.mjs` | даты, ISO-недели | — |
 
-## Twitter Factory (MCP)
+## Twitter Factory (MCP-сервер `twitter-factory`, инструменты `mcp__twitter-factory__*`)
 
 Сервис мониторинга X Полины. В репозиторий сервиса ничего не писать.
 Ниша аккаунта: **finance** («Finance»). В той же нише лежит и @lorenzofl0w, поэтому материал ниши общий;
 отбирать темы только под `brief.md` этого аккаунта.
 
-**tf-db** — читает MongoDB напрямую, бэкенд не нужен (`TF_OWN_ACCOUNT=markelling_`):
+**Читают базу напрямую** (`TF_OWN_ACCOUNT=markelling_`):
 
 | Инструмент | Зачем |
 |---|---|
@@ -101,7 +101,7 @@ claude -p "/daily" --permission-mode acceptEdits
 | `weekly_digest` | недельная сводка — **только с `save: false`**, иначе пишет файл в репозиторий сервиса |
 | `health` | жива ли база и сбор |
 
-**tf-api** — через API бэкенда с ADMIN_TOKEN (`TF_WORKSPACE=finance`, `TF_OWN_ACCOUNT=markelling_`):
+**Через API бэкенда** (`TF_WORKSPACE=finance`, `TF_OWN_ACCOUNT=markelling_`):
 
 | Инструмент | Зачем |
 |---|---|

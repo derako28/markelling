@@ -24,7 +24,7 @@ description: Ежедневные черновики — материал из T
 
 ## 2. Материал из Twitter Factory
 
-Сначала `health` (tf-db). Потом, не останавливаясь на ошибках:
+Сначала `health` (. Потом, не останавливаясь на ошибках:
 - `rising_posts` (hours: 48, limit: 15) — что растёт сейчас;
 - `pushed_topics` (hours: 48) — что толкает алгоритм у маленьких аккаунтов;
 - `top_posts` (workspace: "finance", days: 2, sort_by: "views", limit: 20);
